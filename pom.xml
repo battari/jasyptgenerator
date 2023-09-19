@@ -57,8 +57,10 @@
                 </executions>
                 <configuration>
                     <mainClass>au.com.attari.jasyptgenerator.JasyptGenerator</mainClass>
-                    <commandlineArgs>enc aes jasypt-encrypt hello</commandlineArgs>
-                    <commandlineArgs>dec aes jasypt-encrypt x05SeBp94piBMis8Wy4Jw8vydMcT0ZW1XKz5TKyvNcowrvjAq8+0qMWnw+sXBh4S</commandlineArgs>
+                    <commandlineArgs>dec aes 12012210512012211710412510312400 KzLWSfE85HR6se4vGmRpIqqwCcctfP8GtsOnPjRh1L1/E2BgQQu9TKlSA88lsODB</commandlineArgs>
+                    <commandlineArgs>enc aes 12012210512012211710412510312400 srdtestusr</commandlineArgs>
+
+
                 </configuration>
             </plugin>
         </plugins>
